@@ -13,6 +13,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cluster import KMeans, DBSCAN, AgglomerativeClustering
 from sklearn.mixture import GaussianMixture
 from streamlit.logger import get_logger
+from sklearn.metrics import confusion_matrix
+
 
 LOGGER = get_logger(__name__)
 
